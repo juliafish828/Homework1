@@ -1,0 +1,35 @@
+---
+title: "Data Science Intro Fish"
+format: html
+editor: visual
+---
+
+## Answering Questions
+
+I think being a data scientist is about using data to make observations, gain insights, and learn about potential relationships and patterns. There is also a heavy aspect of coding
+
+What differences/similarities do you see between data scientists and statisticians?
+
+How do you view yourself in relation to these two areas?
+
+In terms of how I view myself in relation to these two areas, I feel like a statistician.
+
+## R Code Chunks
+
+Here, I pasted the code from the assignment.
+
+```{r}
+y <- density(iris$Petal.Width)
+class(y)
+typeof(y)
+str(y)
+```
+
+In the code chunk above, I created an object y that takes on the values of pedal widths from a very popular R data set, iris. Then, I checked the class, type, and structure of this newly defined object.
+
+Below, I am going to plot this object.
+
+```{r}
+#| echo: false
+plot(y)
+```

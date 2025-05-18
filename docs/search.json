@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Data Science Intro Fish.html",
+    "href": "Data Science Intro Fish.html",
+    "title": "Data Science Intro Fish",
+    "section": "",
+    "text": "I think being a data scientist is about using data to make observations, gain insights, and learn about potential relationships and patterns. There is also a heavy aspect of coding\nWhat differences/similarities do you see between data scientists and statisticians?\nHow do you view yourself in relation to these two areas?\nIn terms of how I view myself in relation to these two areas, I feel like a statistician."
+  },
+  {
+    "objectID": "Data Science Intro Fish.html#answering-questions",
+    "href": "Data Science Intro Fish.html#answering-questions",
+    "title": "Data Science Intro Fish",
+    "section": "",
+    "text": "I think being a data scientist is about using data to make observations, gain insights, and learn about potential relationships and patterns. There is also a heavy aspect of coding\nWhat differences/similarities do you see between data scientists and statisticians?\nHow do you view yourself in relation to these two areas?\nIn terms of how I view myself in relation to these two areas, I feel like a statistician."
+  },
+  {
+    "objectID": "Data Science Intro Fish.html#r-code-chunks",
+    "href": "Data Science Intro Fish.html#r-code-chunks",
+    "title": "Data Science Intro Fish",
+    "section": "R Code Chunks",
+    "text": "R Code Chunks\nHere, I pasted the code from the assignment.\n\ny &lt;- density(iris$Petal.Width)\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nIn the code chunk above, I created an object y that takes on the values of pedal widths from a very popular R data set, iris. Then, I checked the class, type, and structure of this newly defined object.\nBelow, I am going to plot this object."
+  }
+]
