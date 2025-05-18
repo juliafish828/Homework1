@@ -6,19 +6,17 @@ editor: visual
 
 ## Answering Questions
 
-I think being a data scientist is about using data to make observations, gain insights, and learn about potential relationships and patterns. There is also a heavy aspect of coding
+-   I think being a data scientist is about using data to make observations, gain insights, and learn about potential relationships and patterns. There is so much to data science as a discipline that all works together to create the overarching picture of the subject: coding, modeling, analysis, data cleaning, model writing, etc.. With that in mine, being a data scientist to me starts with the desire to want to learn something more from data than what originally meets the eye.
 
-What differences/similarities do you see between data scientists and statisticians?
+-   Between data scientists and statisticians, there are many similarities. To start, many statistics courses nowadays use R, SAS, and other languages in order to analyze data and make conclusions; I presume data scientists do the same. However, statistics seems more preoccupied with forming a nicely worded conclusion from a previously stated hypothesis, whereas data science is moreso aiming to analyze large data sets for any underlying information. Also, data scientists seem to have a wide range of skills for automation of tasks and analysis/cleaning of large data sets, while statistics seems to follow a structured series of tasks in order to complete a specific analysis.
 
-How do you view yourself in relation to these two areas?
-
-In terms of how I view myself in relation to these two areas, I feel like a statistician.
+-   I definitely see myself as more of a statistician than a data scientist. I honestly still struggle with how to decipher the two, but I know that I have much more confidence in my ability to solve a statistics problem as opposed to a data science problem. In reality, though, data scientist positions are becoming more and more useful/desirable as they have a wide range of capabilities, so I hope to change this answer sooner rather than later!
 
 ## R Code Chunks
 
 Here, I pasted the code from the assignment.
 
-```{r}
+```{r chunk 1}
 y <- density(iris$Petal.Width)
 class(y)
 typeof(y)
@@ -27,9 +25,9 @@ str(y)
 
 In the code chunk above, I created an object y that takes on the values of pedal widths from a very popular R data set, iris. Then, I checked the class, type, and structure of this newly defined object.
 
-Below, I am going to plot this object.
+I am now going to plot this object, y.
 
-```{r}
+```{r chunk 2}
 #| echo: false
-plot(y)
+plot(y, main = "Plot of Object y")
 ```
